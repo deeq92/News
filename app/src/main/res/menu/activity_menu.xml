@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"> //FIND OUT WHY NEED THIS
+
+    <item android:title="Associated Press"
+        android:id="@+id/ap"
+        android:icon="@drawable/ap"
+        app:showAsAction="always" /> //FIND OUT WHY NEED APP: INSTEAD OF ANDROID:
+    <item android:title="ESPN"
+        android:id="@+id/espn"
+        android:icon="@drawable/espn"
+        app:showAsAction="always" />
+    <item android:title="CNN"
+        android:id="@+id/cnn"
+        android:icon="@drawable/cnn"
+        app:showAsAction="always" />
+    <item android:title="Google"
+        android:id="@+id/google"
+        android:icon="@drawable/google"
+        app:showAsAction="always" />
+</menu>

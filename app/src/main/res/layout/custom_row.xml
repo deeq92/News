@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        app:srcCompat="@android:color/background_dark"
+        android:id="@+id/newsPic"
+        android:scaleType="fitXY"
+        android:layout_height="70dp"
+        android:layout_width="80dp"
+        android:paddingTop="4dp"
+        android:paddingRight="3dp" />
+
+    <TextView
+        android:text="title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsTitle"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        android:ellipsize="end"
+        android:textIsSelectable="false"
+        android:layout_weight="0.03"
+        android:maxLines="3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/newsPic"
+        android:layout_toEndOf="@+id/newsPic"
+        android:linksClickable="false"
+        android:clickable="true" />
+
+    <TextView
+        android:text="desc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/desc"
+        android:layout_weight="0.12"
+        android:layout_below="@+id/newsTitle"
+        android:layout_toRightOf="@+id/newsPic"
+        android:layout_toEndOf="@+id/newsPic"
+        android:layout_alignBottom="@+id/newsPic"
+        android:singleLine="false"
+        android:scrollHorizontally="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textSize="12sp" />
+
+</RelativeLayout>

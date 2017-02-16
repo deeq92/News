@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="ap">https://newsapi.org/v1/articles?source=associated-press&amp;sortBy=top&amp;apiKey=f4c7ae75740d42bd8fd8229219d4f145</string>
+    <string name="espn">https://newsapi.org/v1/articles?source=espn&amp;sortBy=top&amp;apiKey=f4c7ae75740d42bd8fd8229219d4f145</string>
+    <string name="cnn">https://newsapi.org/v1/articles?source=cnn&amp;sortBy=top&amp;apiKey=f4c7ae75740d42bd8fd8229219d4f145</string>
+    <string name="google">https://newsapi.org/v1/articles?source=google-news&amp;sortBy=top&amp;apiKey=f4c7ae75740d42bd8fd8229219d4f145</string>
+
+</resources>
